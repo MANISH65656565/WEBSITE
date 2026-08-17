@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- CRITICAL for mobile: sets the correct scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv Shakti Paper Plate Store</title>
+   
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+            background: url('PIC.jpg') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        header {
+            padding: 20px;
+        }
+
+        .logo {
+            width: 100%;
+            max-width: 400px; 
+            height: auto;
+            aspect-ratio: 1/1;
+            border-radius: 20%;
+            border: 8px solid #474200;
+            object-fit: cover;
+        }
+
+        h1 { font-size: 1.8rem; margin-top: 15px; }
+        .tagline { font-size: 1.2rem; color: #555; }
+
+        .btn-next {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 35px; 
+            background-color: #d31919;
+            color: white; 
+            text-decoration: none; 
+            border-radius: 50px; 
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: 0.3s ease; 
+            border: 2px solid #4b0082;
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 1.5rem; }
+            .tagline { font-size: 1rem; }
+            .logo { max-width: 250px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.jpg.png" alt="Shiv Shakti Logo" class="logo">
+        <h1>Shiv Shakti Paper Plate Store</h1>
+        <h2 class="tagline">पर्यावरण का साथी, हर आयोजन की शान!</h2>
+
+        <div style="margin-top: 20px;">
+            <a href="about.html" class="btn-next">Know About Us →</a>
+        </div>
+    </header>
+
+</body>
+</html>

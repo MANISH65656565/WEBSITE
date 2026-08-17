@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #333;
+    
+    background-image: url('imag.png');
+    background-size: cover;            
+    background-position: center;       
+    background-attachment: fixed;      
+    background-repeat: no-repeat;
+}
+section { 
+    padding: 60px 20px; 
+    background-color: rgba(255, 255, 255, 0.8); /* White with 80% transparency */
+    margin: 20px;
+    border-radius: 15px;
+}
+.card {
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #800000;
+    border-radius: 10px;
+    transition: 0.3s;
+}  
+
+header {
+    background-color: #181903d3;
+    color: #f6f8f9;
+    padding: 60px 30px;
+}
+
+h1 { 
+    font-size: 3rem; 
+    margin-bottom: 2px; 
+}
+
+.tagline { 
+    font-style: italic; 
+    font-size: 2rem; 
+}
+
+section { 
+    padding: 40px 20px; 
+}
+
+.product-grid {
+    display: grid;
+    /* This creates a responsive grid that wraps automatically */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #800000;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.card img {
+    max-width: 100%;    
+    height: auto;      
+    display: block;  
+    margin: 0 auto 15px;   
+    border-radius: 5px; 
+}
+
+.card:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px;
+    background: #800000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.wa { 
+    background: #25D366; 
+}
+.btn-next, .btn-home {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #ffe600;
+    color: rgb(188, 0, 0); 
+    text-decoration: none; 
+    border-radius: 50px; 
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 15px rgba(75, 0, 130, 0.2);
+    border: 2px solid #51013e;
+    }
+
+.btn-next:hover, .btn-home:hover {
+    background-color: white;
+    color: #820000;
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 20px rgba(75, 0, 130, 0.3);
+     }
+
+footer { 
+    background: #3d2727; 
+    color: white; 
+    padding: 10px; 
+    font-size: 0.8rem; 
+}
